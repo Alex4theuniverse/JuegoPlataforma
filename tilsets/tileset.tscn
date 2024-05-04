@@ -1,0 +1,568 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/world/tiles-7.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 8, 8 )
+
+[node name="tileset-blocks" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0.265163, -0.176776 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 35, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 41, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 1, 131, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 71, 0 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 86, 63, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite3/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="bandera1" type="Sprite" parent="."]
+position = Vector2( 74, 23 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 86, 29, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bandera1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bandera1/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="bandera2" type="Sprite" parent="."]
+position = Vector2( 70, 39 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 144.664, 46, 8.33566, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bandera2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bandera2/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="bandera4" type="Sprite" parent="."]
+position = Vector2( 62, 39 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 136.664, 46, 8, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bandera4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bandera4/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="bandera5" type="Sprite" parent="."]
+position = Vector2( 78, 39 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 144.368, 29.082, 8.88889, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bandera5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bandera5/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="bandera3" type="Sprite" parent="."]
+position = Vector2( 75, 55 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 86, 46, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bandera3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bandera3/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="castillo" type="Sprite" parent="."]
+position = Vector2( 45, 77 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 69, 114, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="castillo"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="castillo/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="castillo2" type="Sprite" parent="."]
+position = Vector2( 62, 77 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 114, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="castillo2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="castillo2/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="castillo3" type="Sprite" parent="."]
+position = Vector2( 79, 77 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 86, 114, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="castillo3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="castillo3/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="castillo4" type="Sprite" parent="."]
+position = Vector2( 79, 93 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 86, 131, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="castillo4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="castillo4/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="castillo5" type="Sprite" parent="."]
+position = Vector2( 63, 93 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 69, 131, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="castillo5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="castillo5/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="castillo6" type="Sprite" parent="."]
+position = Vector2( 95, 93 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 131, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="castillo6"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="castillo6/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="castillo7" type="Sprite" parent="."]
+position = Vector2( 45, 93 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 35, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="castillo7"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="castillo7/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="nube" type="Sprite" parent="."]
+position = Vector2( 9, 21 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 222, 63, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="nube"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="nube/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="nube2" type="Sprite" parent="."]
+position = Vector2( 25, 21 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 239, 63, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="nube2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="nube2/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="nube3" type="Sprite" parent="."]
+position = Vector2( 41, 21 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 256, 63, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="nube3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="nube3/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="nube4" type="Sprite" parent="."]
+position = Vector2( 9, 37 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 222, 80, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="nube4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="nube4/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="nube5" type="Sprite" parent="."]
+position = Vector2( 25, 37 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 239, 80, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="nube5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="nube5/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="nube6" type="Sprite" parent="."]
+position = Vector2( 41, 37 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 256, 80, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="nube6"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="nube6/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña" type="Sprite" parent="."]
+position = Vector2( 236, 32 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 154, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña2" type="Sprite" parent="."]
+position = Vector2( 236, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 171, 63, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña2/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña3" type="Sprite" parent="."]
+position = Vector2( 220, 32 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 137, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña3/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña4" type="Sprite" parent="."]
+position = Vector2( 252, 32 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 205, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña4/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña5" type="Sprite" parent="."]
+position = Vector2( 236, 48 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 171, 80, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña5/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña6" type="Sprite" parent="."]
+position = Vector2( 252, 48 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 188, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña6"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña6/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña7" type="Sprite" parent="."]
+position = Vector2( 284, 32 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 154, 80, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña7"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña7/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="montaña8" type="Sprite" parent="."]
+position = Vector2( 315, 32 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 188, 80, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="montaña8"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="montaña8/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="pasto" type="Sprite" parent="."]
+position = Vector2( 154, 76 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 222, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="pasto"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pasto/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="pasto2" type="Sprite" parent="."]
+position = Vector2( 231, 78 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 239, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="pasto2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pasto2/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="pasto3" type="Sprite" parent="."]
+position = Vector2( 215, 78 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 222, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="pasto3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pasto3/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="pasto4" type="Sprite" parent="."]
+position = Vector2( 247, 78 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 256, 97, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="pasto4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pasto4/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="cielo" type="Sprite" parent="."]
+position = Vector2( 280, 77 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 12, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cielo"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cielo/StaticBody2D"]
+shape = SubResource( 1 )
+disabled = true
+
+[node name="tubo" type="Sprite" parent="."]
+position = Vector2( 342, 15 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 46, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tubo"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tubo/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="tubo2" type="Sprite" parent="."]
+position = Vector2( 358, 15 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 120, 46, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tubo2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tubo2/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="tubo3" type="Sprite" parent="."]
+position = Vector2( 342, 31 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 103, 63, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tubo3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tubo3/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="tubo4" type="Sprite" parent="."]
+position = Vector2( 358, 31 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 120, 63, 16, 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tubo4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tubo4/StaticBody2D"]
+shape = SubResource( 1 )
